@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/banner.css">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/info.css">
+	<link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+	
+	<header>
+		<div class="contenedor">
+			<h1>Cuida Tu Jardín</h1>
+			<input type="checkbox" id="menu-bar">
+			<label class="icon-menu" for="menu-bar"></label>
+
+			<nav class="menu">
+				<a href="index.html">Inicio</a>
+				<a href="blog.html">Blog</a>
+				<a href="contacto.html">Contacto</a>
+
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		
+		<section id="contacto">
+			
+			<div class="contenedor">
+				
+				<form id="formulario" action="enviar.php" method="post">
+					<h3>ESTEMOS EN CONTACTO.</h3>
+					<input type="text" name="nombre" placeholder="Nombre" minlength="3" required>
+					<input type="text" name="correo" placeholder="Correo@mail.com" required>
+					<textarea name="mensaje" placeholder="Escriba aquí su mensaje.." minlength="5" required></textarea>
+					<input type="submit" value="ENVIAR" id="boton" >
+		
+				</form>
+				
+			</div>
+		</section>
+	
+
+		
+	</main>
+
+	<footer>
+		<div class="contenedor">
+			<p class="copy">Cuida Tu Jardín &copy; 2017</p>
+			<div class="sociales"><!--
+				<a class="icon-menu" href=""></a>
+				<a class="icon-menu" href=""></a>
+				<a class="icon-menu" href=""></a>
+				<a class="icon-menu" href=""></a>-->
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
